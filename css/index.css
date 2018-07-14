@@ -1,10 +1,25 @@
+/* 组件化3D盒子 标准板页
+<div class="box_3D">
+    <div></div> <!-- 上 -->
+    <div></div> <!-- 下 -->
+    <div></div> <!-- 前 -->
+    <div></div> <!-- 后 -->
+    <div></div> <!-- 左 -->
+    <div></div> <!-- 右 -->
+</div> */
+
+/* 与盒子无关的样式
 * {
     padding: 0;
     margin: 0;
 }
-body {
-    background: url(../img/01.png);
+html,body {
+    height: 100%;
 }
+body {
+    background: url(../img/01.png) no-repeat;
+    background-size: 100% 100%;
+} */
 .box_3D {
     width: 300px;
     height: 300px;
